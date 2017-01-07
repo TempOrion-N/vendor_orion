@@ -136,11 +136,11 @@ else
    vendor/orion/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 endif
 
-#GoogleKeyboard
+#GBoard
 PRODUCT_COPY_FILES += \
-   vendor/orion/prebuilt/common/app/GoogleKeyboard/GoogleKeyboard.apk:system/app/GoogleKeyboard/GoogleKeyboard.apk \
-   vendor/orion/prebuilt/common/app/GoogleKeyboard/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so \
-   vendor/orion/prebuilt/common/app/GoogleKeyboard/libjni_unbundled_latinimegoogle.so:/system/lib/libjni_unbundled_latinimegoogle.so
+   vendor/orion/prebuilt/common/app/GBoard/GBoard.apk:system/app/GBoard/GBoard.apk \
+   vendor/orion/prebuilt/common/app/GBoard/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so \
+   vendor/orion/prebuilt/common/app/GBoard/libjni_unbundled_latinimegoogle.so:/system/lib/libjni_unbundled_latinimegoogle.so
 
 # Viper4Android
 PRODUCT_COPY_FILES += \
