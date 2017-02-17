@@ -148,6 +148,9 @@ PRODUCT_COPY_FILES += \
    vendor/orion/prebuilt/common/addon.d/95-LolliViPER.sh:system/addon.d/95-LolliViPER.sh \
    vendor/orion/prebuilt/common/su.d/50viper.sh:system/su.d/50viper.sh \
    vendor/orion/prebuilt/common/app/Viper4Android/Viper4Android.apk:system/priv-app/Viper4Android/Viper4Android.apk
+# Wallpaper
+PRODUCT_COPY_FILES += \
+    vendor/orion/prebuilt/common/app/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
 
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
